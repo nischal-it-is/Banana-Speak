@@ -7,6 +7,7 @@ var inputText=document.querySelector('#input');
 var outputText=document.querySelector("#output");
 //api
 var server = "https://api.funtranslations.com/translate/minion.json"
+//var server="https://api.funtranslations.com/translate/shakespeare.json";
 
 //to construct url to send to api call
 function makeURL(input) {
